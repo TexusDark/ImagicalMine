@@ -400,7 +400,8 @@ class CraftingManager{
 		))->setIngredient("I", Item::get(Item::IRON_INGOT, 0, 9)));
 		
 		$this->registerRecipe((new BigShapedRecipe(Item::get(Item::BREWING_STAND, 0, 1),
-			" B",
+			"   ",
+			" B ",
 			"CCC"
 		))->setIngredient("B", Item::get(Item::BLAZE_ROD, 0, 1))->setIngredient("C", Item::get(Item::COBBLESTONE, 0, 3)));
 	}
